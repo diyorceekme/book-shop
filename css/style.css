@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.parent-div{
+    display: flex;
+    justify-content: space-between;
+}
+.app-bar-main{
+    width: 290px;
+    max-width: 290px;
+    padding: 60px 38px 103px 33px;
+}
+.app-bar-top{
+    display: flex;
+    justify-content: space-between;
+}
+.person-info{
+    margin-top: 46px;
+    text-align: center;
+}
+.person-photo{
+    background-color: #C4C4C4;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    margin: auto;
+}
+.person-name{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    padding: 16px 0px 8px 0px;
+}
+.person-username{
+    color: #ADB8D4;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+.all-pages{
+    padding-top: 69px;
+    max-width: 176px;
+    margin: auto;
+}
+.one-page{
+    display: flex;
+    align-items: center;
+    margin-bottom: 44px;
+}
+.one-page-text{
+    font-size: 16px;
+    font-weight: 600;
+    color: #ADB8D4;
+    margin: 0;
+    padding-left: 19px;
+}
+.app-bar-main .all-pages .one-page .fa{
+    color: #ADB8D4;
+}
+.main-side{
+    margin: 54px 0px 0px 54px;
+    width: 738px;
+    max-width: 738px;
+}
+.main-side-top{
+    display: flex;
+    justify-content: space-between;
+}
+.main-side-top-left{
+    display: flex;
+    align-items: center;
+}
+.search-button{
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ADB8D4;
+    margin-left: 17px;
+}
+.search-button:focus{
+    outline: none;
+}
+.main-side-top-text{
+    color: #333333;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.text-popular{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 32px 0px 40px 0px;
+    color: #333333;
+}
+.all-cards{
+    display: flex;
+}
+.card:nth-child(1), .card:nth-child(2){
+    margin-right: 27px;
+}
+.main-side-texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.see-all{
+    color: #518466;
+    font-size: 16px;
+    font-weight: 600;
+}
+.card-main-text{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 24px 0px 8px 0px;
+}
+.card-text{
+    color: #ADB8D4;
+    font-size: 16px;
+    font-weight: 600;
+}
+.your-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.your-card{
+    display: flex;
+    margin-bottom: 32px;
+}
+.your-card-name{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+}
+.your-card-author{
+    color: #ADB8D4;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 0px 38px;
+}
+.your-card-page{
+    font-size: 12px;
+    font-weight: 600;
+}
+.book-info{
+    display: flex;
+    justify-content: space-between;
+}
+.your-card-procent{
+    color: #ADB8D4;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 98px;
+}
+.your-card-info{
+    margin-left: 24px;
+    align-self: center;
+}
+.aside{
+    width: 338px;
+    max-width: 338px;
+    margin: 85px 0px 0px 40px;  
+    text-align: center; 
+    padding: 0px 25px 73px;
+}
+.aside .book-details .stars .fa{
+    color: #FFBF53 !important;
+}
+.aside-text{
+    font-size: 24px;
+    color: #333333;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.book-details-name{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 32px 0px 8px;
+}
+.book-details-author{
+    color: #ADB8D4;
+    font-size: 16px;
+    font-weight: 600;
+}
+.stars{
+    margin: 22px 0px 59px;
+}
+.paragraph-div{
+    width: 267px;
+    margin: auto;
+}
+.paragraph{
+    color: #ADB8D4;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 32px;
+    text-align: start !important;
+}
+.read-button{
+    background-color: #518466;
+    color: white;
+    border: none;
+    padding: 20px 46px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
